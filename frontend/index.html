@@ -1,0 +1,8 @@
+<h1>MSP License Hub</h1>
+<button onclick="startSync()">Start Sync</button>
+<script>
+async function startSync(){
+    await fetch("/sync");
+    alert("Sync started");
+}
+</script>
